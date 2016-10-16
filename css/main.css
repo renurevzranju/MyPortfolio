@@ -1,0 +1,104 @@
+/**** Social link styles some of the queries was from https://github.com/IreneMarin ****/
+
+
+/**** General styles ****/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a, a:hover, a:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #00b2ca;
+}
+
+p {
+    font-family: 'Pacifico';
+    font-size: 25px;
+    text-decoration: overline;
+    margin: 0 15px 10px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'Ruslan Display', cursive;
+    color: #1F618D;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: #8E44AD;
+}
+
+h3 {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Almendra SC', serif;
+    font-size: 25px;
+}
+
+
+/**** Main ****/
+
+.title {
+    font-family: 'Lora', serif;
+    font-size: 10px;
+    color: #34495E;
+    padding: 30px 5px 0;
+    letter-spacing: 1.5px;
+    margin-left: 0;
+}
+
+article {
+    text-align: left;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+/**** Footer ****/
+
+footer {
+    background: #212121;
+    padding: 50px 0 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
+    color: #fafafa;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.email {
+    color: #fafafa;
+}
+
+.social {
+    text-align: left;
+}
+
+.social-link {
+    padding: 0px 15px;
+    color: #fafafa;
+}
